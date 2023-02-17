@@ -1,4 +1,6 @@
-internal class StringBackedStream {
+import JazzServer;
+
+internal class StringBackedStream: HtmlStream {
     private final let data: String;
 
     private var current: Int = 0;
